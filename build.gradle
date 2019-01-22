@@ -1,8 +1,8 @@
 plugins {
     id 'java'
-    id 'com.github.johnrengelman.shadow' version '4.0.3'
+    id 'com.github.johnrengelman.shadow' version '4.0.4'
     id 'application'
-    id 'org.openjfx.javafxplugin' version '0.0.5'
+    id 'org.openjfx.javafxplugin' version '0.0.7'
 }
 
 group 'GrizzlyTime'
