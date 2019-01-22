@@ -96,29 +96,6 @@ public class CameraStream {
                     Imgcodecs.imencode(".png", frame, buffer);
                     Image imageToShow = new Image(new ByteArrayInputStream(buffer.toArray()));
 
-                    //convert to BufferedReader and decode
-                    String data = QRReader.decodeQRCode(imageToShow);
-
-                    //verify that we have data
-                    if (data != null) {
-                        try {
-                            if (!(Integer.parseInt(data) == prevID)) {
-                                if (process.isUserLoggedIn(data, false)) {
-                                    process.logoutUser(data);
-
-                                } else {
-                                    process.loginUser(data);
-
-                                }
-
-                                prevID = Integer.valueOf(data);
-                            }
-                        } catch (Exception e) {
-                            //do nothing
-                            continue;
-                        }
-                    }
-
                     Platform.runLater(() -> currentFrame.setImage(imageToShow));
                 } catch (Exception e) {
                     LoggingUtil.log(Level.SEVERE, e);
