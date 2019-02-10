@@ -1,5 +1,7 @@
-# GrizzlyTime
+# IMPORTANT
+- Repository has been moved to https://github.com/YCSRobotics/GrizzlyTime
 
+# GrizzlyTime
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/4aa6c7f1b32d4d0da74b7ba17558e17b)](https://app.codacy.com/app/gamefollower26/GrizzlyTime-JavaFX?utm_source=github.com&utm_medium=referral&utm_content=Daltz333/GrizzlyTime-JavaFX&utm_campaign=Badge_Grade_Dashboard)
 ![Current Version Bade](https://img.shields.io/github/release/daltz333/GrizzlyTime-JavaFX.svg?style=flat)
 ![Num Downloads](https://img.shields.io/github/downloads/daltz333/GrizzlyTime-JavaFX/latest/total.svg?style=flat)
